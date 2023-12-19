@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+/*import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -17,4 +17,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+});*/
+
+import React from "react";
+import StackNav from './routes/HomeStackNav';
+
+
+
+export default function App (){
+
+
+    return  <StackNav/>
+  
+}
+
+
+
+
